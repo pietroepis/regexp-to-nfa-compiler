@@ -9,3 +9,9 @@ Below is an explaination of how to represent _sequence_, _or_, _Kleene star_ and
 - Or:       `or(<re1>, <re2>, ..., <rek>)`
 - Star:     `star(<re>)`
 - Plus:     `plus(<re>)`
+
+**Common Lisp**
+- Sequence: `(seq <re1> <re2> ... <rek>)`
+- Or:       `(or <re1> <re2>... <rek>)`
+- Star:     `(star <re>)`
+- Plus:     `(plus <re>)`
