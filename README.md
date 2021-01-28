@@ -5,7 +5,7 @@ Compiler from Regular Expression to NFA (Nondeterministic Finite Automaton), dev
 Below is an explaination of how to represent _sequence_, _or_, _Kleene star_ and _plus_ (one or more repetitions)
 
 **Prolog**
-- Sequence: seq(<re1>,<re2>,..., <rek>)
-- Or:       or(<re1>, <re2>, ..., <rek>)
-- Star:     star(<re>)
-- Plus:     plus(<re>)
+- Sequence: `seq(<re1>,<re2>,..., <rek>)`
+- Or:       `or(<re1>, <re2>, ..., <rek>)`
+- Star:     `star(<re>)`
+- Plus:     `plus(<re>)`
